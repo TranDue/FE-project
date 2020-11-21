@@ -24,9 +24,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css","node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "js/gmap.js",
+              "js/jquery-1.11.2.min.js",
+              "js/fancybox/fancybox.js",
+              "js/fancybox/helpers/jquery.fancybox-thumbs.js",
+              "js/jquery.flexslider-min.js",
+              "js/swiper.jquery.min.js",
+              "js/jquery.waypoints.min.js",
+              "js/progressbar.min.js",
+              "js/ion.rangeSlider.min.js",
+              "js/chosen.jquery.min.js",
+              "js/jQuery.Brazzers-Carousel.js",
+              "js/plugins.js",
+              "C:/Users/Administrator/Desktop/FE-angular/FE/js/main.js",
+              "js/fancybox/helpers/jquery.fancybox-media.js",
+              "js/fancybox/helpers/jquery.fancybox-buttons.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -89,7 +107,25 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "js/gmap.js",
+              "js/jquery-1.11.2.min.js",
+              "js/fancybox/fancybox.js",
+              "js/fancybox/helpers/jquery.fancybox-thumbs.js",
+              "js/jquery.flexslider-min.js",
+              "js/swiper.jquery.min.js",
+              "js/jquery.waypoints.min.js",
+              "js/progressbar.min.js",
+              "js/ion.rangeSlider.min.js",
+              "js/chosen.jquery.min.js",
+              "js/jQuery.Brazzers-Carousel.js",
+              "js/plugins.js",
+              "C:/Users/Administrator/Desktop/FE-angular/FE/js/main.js",
+              "js/fancybox/helpers/jquery.fancybox-media.js",
+              "js/fancybox/helpers/jquery.fancybox-buttons.js"
+            ]
           }
         },
         "lint": {
@@ -120,5 +156,8 @@
       }
     }
   },
-  "defaultProject": "FE"
+  "defaultProject": "FE",
+  "cli": {
+    "analytics": "398840dd-88ca-48d5-b548-759f0fc50da6"
+  }
 }
